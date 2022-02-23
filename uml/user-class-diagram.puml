@@ -1,85 +1,76 @@
 @startuml
+
 Users <|-- Podcaster
-Users "1" --> "*" History: Have
 Users "1" --> "*" Tokens: Generates
-Users "1" --> "*" Flags: Flags
 
-enum UserStatus {
-  ACTIVE 
-  DISABLED
-  BANNED
+package com.druid.gui.views {
+   class LoginView {
+      + void method()
+   }
+   class ForgotPasswordView {
+      + void method()
+   }
 }
 
-enum UserRole {
-  BASIC
-  ADMIN 
+package com.druid.gui.controllers {
+   class UserController {
+      + void method()
+   }
+   class TokenController {
+      + void method()
+   }
 }
 
-enum FlagOffense {
-   HARASSMENT
-   SPAM
-   VIOLENCE
+package com.druid.enums {
+   enum UserStatus {
+      ACTIVE 
+      DISABLED
+      BANNED
+   }
+
+   enum UserRole {
+      BASIC
+      ADMIN 
+   }
 }
 
-enum HistoryActivity {
-   PROFILE
-   SECURITY
-   BILLING
-   CORE
+package com.druid.models {
+   class Users {
+      - ID: int 
+      - firstName: String 
+      - lastName: String 
+      - username: String 
+      - password: String 
+      - email: String 
+      - role: Enum<UserRole> 
+      - status: Enum<UserStatus>
+      + void create(User)
+      + void update(User)
+      + void delete(User)
+      + Optional<User> fetchOne(User)
+      + Optional<User> authenticate()
+   }
+
+   class Podcaster {
+      - avatar: String 
+      - biography: String 
+   }
+
+   class Tokens {
+      - ID: int 
+      - userID: int 
+      - token: String 
+      - consumed: boolean 
+      - created: Timestamp 
+      + void generate()
+      + Optional<Token> getMostRecent(User)
+      + void update()
+      + void clean()
+   }
 }
 
-class Users {
-   - int ID
-   - String firstName
-   - String lastName
-   - String username
-   - String password
-   - String email
-   - Enum<UserRole> role
-   - Enum<UserStatus> status
-   + void create()
-   + void update()
-   + void delete()
-   + User visitProfile()
-   + Optional<User> authenticate()
-}
-
-class Podcaster {
-   - String avatar
-   - String biography
-}
-
-class Flags {
-   - int ID
-   - int userID 
-   - Enum<FlagOffense> offense 
-   - String description
-   - Timestamp time 
-   + void create()
-   + void delete()
-}
-
-class History {
-  - int ID
-  - int userID
-  - Enum<HistoryActivity> activity
-  - String description
-  - Timestamp time
-  + void add()
-  + void get()
-  + void clear()
-}
-
-class Tokens {
-  - int ID;
-  - int userID;
-  - String token;
-  - boolean consumed;
-  - Timestamp created;
-  + void generate()
-  + void getMostRecent()
-  + void update()
-  + void clean()
-}
+note right
+   Tokens are secure strings of text that can allow a user that has forgotten their password to recover their account.
+end note
 
 @enduml

@@ -4,60 +4,70 @@
 actor Visitor as V
 participant "Forget Password" as IHMFP << IHM >>
 participant "Reset Password" as IHMRP << IHM >>
-control Token as Ctrl << Controller >>
-control UserController as UCtrl << Controller >>
-entity Token << Entity >>
-entity User << Entity >>
+control ":TokenController" as TCtrl
+entity "t :Token" as Token
+control ":UserController" as UCtrl
+entity "u :User" as User
 
 autonumber
 
 activate IHMFP
-IHMFP --> V: Enter your username
+V -> IHMFP: Click the "Forgot password?" button
+TCtrl --> IHMFP: Enter your username
 V -> IHMFP: Provide username
-IHMFP -> Ctrl: Search for the user in the DB
-IHMFP --> V: "If the username exists, you will have received a token in your mail which you can use to reset your password."
+IHMFP -> TCtrl ++: Search for the user in the DB
+TCtrl --> IHMFP --: If the username exists, you will have received a token in your mail which you can use to reset your password.
 deactivate IHMFP
 
-activate Ctrl
-Ctrl -> UCtrl: fetchBy(username)
+activate UCtrl
+TCtrl -> UCtrl: fetchBy(username)
+deactivate UCtrl
 
 opt #DDF2EB [If user exists]
-   Ctrl -> Token **: generateToken()
-   Ctrl -> Ctrl: sendMail()
+   UCtrl -> Token **: generateToken(User)
+   UCtrl -> TCtrl: sendMail()
 end
 
-Ctrl --> IHMFP --: "Token generated"
-deactivate Ctrl
+TCtrl --> IHMFP --: Token generated
+deactivate TCtrl
 
 activate IHMFP
 activate V
-IHMFP --> V: Enter your security token
-V -> V: Look for security token in inbox
+V -> V: Search through emails for security token
 V -> IHMFP: Input security token
-activate Ctrl
-IHMFP -> Ctrl: Search for the token in the DB
-Ctrl -> Ctrl --: searchToken()
+activate TCtrl
+IHMFP -> TCtrl++: Search for the token in the DB
+TCtrl -> TCtrl--: searchToken(Token)
 deactivate IHMFP
 deactivate V
 
 alt #BC9CB0 [If token invalid]
-   Ctrl --> IHMFP ++: "Token is invalid"
-   IHMFP --> V --: "Token is invalid"
+   TCtrl --> IHMFP ++: Token is invalid
 else #D3CDD7 [If token expired]
-   Ctrl --> IHMFP: "Token is expired"
-   Ctrl -> Token !!: remove()
-   IHMFP --> V: "Token is expired"
+   TCtrl --> IHMFP: Token is expired
+   TCtrl -> Token !!: remove(Token)
 else #DDF2EB
-   Ctrl -> Token !!: consume()
-   Ctrl --> IHMFP: "Token is valid"
+   TCtrl -> Token !!: consume(Token)
+   note right 
+      Consumed tokens are no longer usable.
+   end note
+   TCtrl --> IHMFP: Token is valid
 
-   IHMRP --> V ++: "Enter your new password"
-   V -> IHMRP ++: "Provide password"
+   deactivate IHMFP
 
-   IHMRP --> V ++: "Confirm your new password"
-   V -> IHMRP --: "Confirm password"
+   TCtrl --> IHMRP ++: Enter your new password
+   V -> IHMRP --: Provide password
 
-   IHMRP -> Ctrl ++: Reset user password
-   Ctrl -> User --++: Update user credentials — update(User)
+   TCtrl --> IHMRP ++: Confirm your new password
+   V -> IHMRP --: Confirm password
+
+   loop [while password != confirmationPassword] 
+      UCtrl --> IHMRP ++: The provided passwords don't match, try again.
+      V -> IHMRP --: Input password
+   end
+
+   IHMRP -> TCtrl ++: Reset the user's password
+   TCtrl -> User --: Update user credentials — update(User)
+
 end
 @enduml
