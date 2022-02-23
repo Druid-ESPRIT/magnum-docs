@@ -1,5 +1,5 @@
 @startuml
-!theme sketchy-outline
+!theme vibrant
 
 actor Visitor as V
 participant Authentication as IHM << IHM >>

@@ -1,0 +1,85 @@
+@startuml
+Users <|-- Podcaster
+Users "1" --> "*" History: Have
+Users "1" --> "*" Tokens: Generates
+Users "1" --> "*" Flags: Flags
+
+enum UserStatus {
+  ACTIVE 
+  DISABLED
+  BANNED
+}
+
+enum UserRole {
+  BASIC
+  ADMIN 
+}
+
+enum FlagOffense {
+   HARASSMENT
+   SPAM
+   VIOLENCE
+}
+
+enum HistoryActivity {
+   PROFILE
+   SECURITY
+   BILLING
+   CORE
+}
+
+class Users {
+   - int ID
+   - String firstName
+   - String lastName
+   - String username
+   - String password
+   - String email
+   - Enum<UserRole> role
+   - Enum<UserStatus> status
+   + void create()
+   + void update()
+   + void delete()
+   + User visitProfile()
+   + Optional<User> authenticate()
+}
+
+class Podcaster {
+   - String avatar
+   - String biography
+}
+
+class Flags {
+   - int ID
+   - int userID 
+   - Enum<FlagOffense> offense 
+   - String description
+   - Timestamp time 
+   + void create()
+   + void delete()
+}
+
+class History {
+  - int ID
+  - int userID
+  - Enum<HistoryActivity> activity
+  - String description
+  - Timestamp time
+  + void add()
+  + void get()
+  + void clear()
+}
+
+class Tokens {
+  - int ID;
+  - int userID;
+  - String token;
+  - boolean consumed;
+  - Timestamp created;
+  + void generate()
+  + void getMostRecent()
+  + void update()
+  + void clean()
+}
+
+@enduml
