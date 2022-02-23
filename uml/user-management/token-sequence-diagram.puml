@@ -1,0 +1,73 @@
+@startuml
+!theme vibrant
+
+actor Visitor as V
+participant "ForgotPasswordView" as IHMFP << IHM >>
+participant "ResetPasswordView" as IHMRP << IHM >>
+control ":TokenService" as TCtrl
+entity "t :Token" as Token
+control ":UserService" as UCtrl
+entity "u :User" as User
+
+autonumber
+
+activate IHMFP
+V -> IHMFP: Click the "Forgot password?" button
+TCtrl --> IHMFP: Enter your username
+V -> IHMFP: Provide username
+IHMFP -> TCtrl ++: Search for the user in the DB
+TCtrl --> IHMFP --: If the username exists, you will have received a token in your mail which you can use to reset your password.
+deactivate IHMFP
+
+activate UCtrl
+TCtrl -> UCtrl: fetchOne(User)
+deactivate UCtrl
+
+opt #DDF2EB [If user exists]
+   UCtrl -> Token **: generate(User)
+   UCtrl -> TCtrl: sendMail()
+end
+
+TCtrl --> IHMFP --: Token generated
+deactivate TCtrl
+
+activate IHMFP
+activate V
+V -> V: Search through emails for security token
+V -> IHMFP: Input security token
+activate TCtrl
+IHMFP -> TCtrl++: Search for the token in the DB
+TCtrl -> TCtrl--: searchToken(Token)
+deactivate IHMFP
+deactivate V
+
+alt #BC9CB0 [If token invalid]
+   TCtrl --> IHMFP ++: Token is invalid
+else #D3CDD7 [If token expired]
+   TCtrl --> IHMFP: Token is expired
+   TCtrl -> Token !!: remove(Token)
+else #DDF2EB
+   TCtrl -> Token !!: consume(Token)
+   note right 
+      Consumed tokens are no longer usable.
+   end note
+   TCtrl --> IHMFP: Token is valid
+
+   deactivate IHMFP
+
+   TCtrl --> IHMRP ++: Enter your new password
+   V -> IHMRP --: Provide password
+
+   TCtrl --> IHMRP ++: Confirm your new password
+   V -> IHMRP --: Confirm password
+
+   loop [while password != confirmationPassword] 
+      UCtrl --> IHMRP ++: The provided passwords don't match, try again.
+      V -> IHMRP --: Input password
+   end
+
+   IHMRP -> TCtrl ++: Reset the user's password
+   TCtrl -> User --: Update user credentials — update(User)
+
+end
+@enduml
