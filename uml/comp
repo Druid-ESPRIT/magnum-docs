@@ -1,4 +1,0 @@
-#!/bin/bash
-
-plantuml user-class-diagram.puml -o out -tlatex
-pdflatex out/user-class-diagram.latex
