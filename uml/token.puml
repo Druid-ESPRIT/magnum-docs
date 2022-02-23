@@ -2,11 +2,11 @@
 !theme vibrant
 
 actor Visitor as V
-participant "Forget Password" as IHMFP << IHM >>
-participant "Reset Password" as IHMRP << IHM >>
-control ":TokenController" as TCtrl
+participant "ForgotPasswordView" as IHMFP << IHM >>
+participant "ResetPasswordView" as IHMRP << IHM >>
+control ":TokenService" as TCtrl
 entity "t :Token" as Token
-control ":UserController" as UCtrl
+control ":UserService" as UCtrl
 entity "u :User" as User
 
 autonumber
@@ -20,11 +20,11 @@ TCtrl --> IHMFP --: If the username exists, you will have received a token in yo
 deactivate IHMFP
 
 activate UCtrl
-TCtrl -> UCtrl: fetchBy(username)
+TCtrl -> UCtrl: fetchOne(User)
 deactivate UCtrl
 
 opt #DDF2EB [If user exists]
-   UCtrl -> Token **: generateToken(User)
+   UCtrl -> Token **: generate(User)
    UCtrl -> TCtrl: sendMail()
 end
 

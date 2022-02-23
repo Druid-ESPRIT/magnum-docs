@@ -2,8 +2,8 @@
 !theme vibrant
 
 actor Visitor as V
-participant Authentication as IHM << IHM >>
-control ":UserController" as Ctrl
+participant "LoginView" as IHM << IHM >>
+control ":UserService" as Ctrl
 entity "u: User" as User
 
 autonumber
@@ -41,7 +41,6 @@ alt #DDF2EB [If user exists]
 
    IHM -> User: Populate object with remaining data
    deactivate User
-
    
 else #D3CDD7 [If user doesn't exist]
 
