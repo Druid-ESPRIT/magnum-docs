@@ -1,0 +1,63 @@
+@startuml
+!theme vibrant
+
+actor Visitor as V
+participant "Forget Password" as IHMFP << IHM >>
+participant "Reset Password" as IHMRP << IHM >>
+control Token as Ctrl << Controller >>
+control UserController as UCtrl << Controller >>
+entity Token << Entity >>
+entity User << Entity >>
+
+autonumber
+
+activate IHMFP
+IHMFP --> V: Enter your username
+V -> IHMFP: Provide username
+IHMFP -> Ctrl: Search for the user in the DB
+IHMFP --> V: "If the username exists, you will have received a token in your mail which you can use to reset your password."
+deactivate IHMFP
+
+activate Ctrl
+Ctrl -> UCtrl: fetchBy(username)
+
+opt #DDF2EB [If user exists]
+   Ctrl -> Token **: generateToken()
+   Ctrl -> Ctrl: sendMail()
+end
+
+Ctrl --> IHMFP --: "Token generated"
+deactivate Ctrl
+
+activate IHMFP
+activate V
+IHMFP --> V: Enter your security token
+V -> V: Look for security token in inbox
+V -> IHMFP: Input security token
+activate Ctrl
+IHMFP -> Ctrl: Search for the token in the DB
+Ctrl -> Ctrl --: searchToken()
+deactivate IHMFP
+deactivate V
+
+alt #BC9CB0 [If token invalid]
+   Ctrl --> IHMFP ++: "Token is invalid"
+   IHMFP --> V --: "Token is invalid"
+else #D3CDD7 [If token expired]
+   Ctrl --> IHMFP: "Token is expired"
+   Ctrl -> Token !!: remove()
+   IHMFP --> V: "Token is expired"
+else #DDF2EB
+   Ctrl -> Token !!: consume()
+   Ctrl --> IHMFP: "Token is valid"
+
+   IHMRP --> V ++: "Enter your new password"
+   V -> IHMRP ++: "Provide password"
+
+   IHMRP --> V ++: "Confirm your new password"
+   V -> IHMRP --: "Confirm password"
+
+   IHMRP -> Ctrl ++: Reset user password
+   Ctrl -> User --++: Update user credentials — update(User)
+end
+@enduml

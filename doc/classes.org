@@ -1,6 +1,5 @@
 #+TITLE: Magnum's modules and functionalities
 #+AUTHOR: Druid
-#+OPTIONS: ^:{}
 
 * Modules
 ** User Management

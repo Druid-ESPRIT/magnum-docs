@@ -1,0 +1,45 @@
+@startuml
+!theme sketchy-outline
+
+actor Visitor as V
+participant Authentication as IHM << IHM >>
+control Users as Ctrl << Controller >>
+entity User << Entity >>
+
+autonumber
+
+activate IHM
+V -> IHM: Login
+IHM -> Ctrl: Search for the user in the DB
+deactivate IHM
+Ctrl -> Ctrl: fetch(User)
+
+alt [If user exists]
+
+   Ctrl -> Ctrl: isUserBanned()
+
+   opt [If user is banned]
+      Ctrl --> IHM: Optional.empty()
+      IHM --> V: "This user is banned"
+   end
+
+   Ctrl -> Ctrl: isUserDisabled()
+
+   opt [If user is disabled]
+      Ctrl -> User: reenableUser()
+   end
+
+   Ctrl --> IHM: Optional.of(User)
+   IHM --> V: "Login successful :)"
+   activate User
+   IHM -> User: Create User
+   deactivate User
+   
+else [If user doesn't exist]
+
+   Ctrl --> IHM: Optional.empty()
+   IHM --> V: "This user doesn't exist!"
+
+end
+
+@enduml
