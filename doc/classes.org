@@ -3,7 +3,7 @@
 
 * Modules
 ** User Management
-#+begin_src plantuml :file uml/class-diagram.svg
+#+begin_src plantuml :file export/class/user.svg
 package com.druid.gui.views {
    class LoginView {
       + void start()

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="807px" preserveAspectRatio="none" style="width:973px;height:807px;background:#FFFFFF;" version="1.1" viewBox="0 0 973 807" width="973px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="55.412" style="stroke:#696969;stroke-width:1.0;" width="10" x="247" y="97.0679"/><rect fill="#FFFFFF" height="386.6979" style="stroke:#696969;stroke-width:1.0;" width="10" x="247" y="327.01"/><rect fill="#FFFFFF" height="137.0999" style="stroke:#696969;stroke-width:1.0;" width="10" x="252" y="576.608"/><rect fill="#FFFFFF" height="16" style="stroke:#696969;stroke-width:1.0;" width="10" x="257" y="697.708"/><rect fill="#FFFFFF" height="179.5301" style="stroke:#696969;stroke-width:1.0;" width="10" x="538" y="192.186"/><rect fill="#FFFFFF" height="97.118" style="stroke:#696969;stroke-width:1.0;" width="10" x="538" y="513.196"/><rect fill="#DDF2EB" height="493.522" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="775" x="191" y="212.186"/><rect fill="#D3CDD7" height="51.412" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="396.5" x="201" y="283.598"/><rect fill="#D3CDD7" height="80.7739" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="328.5" x="488.5" y="393.716"/><rect fill="#FFFFFF" height="85.118" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="396.5" x="201" y="533.196"/><path d="M201,584.608 L597.5,584.608 L597.5,614.814 A3.5,3.5 0 0 1 594,618.314 L204.5,618.314 A3.5,3.5 0 0 1 201,614.814 L201,584.608 " fill="#FFFFFF" style="stroke:none;stroke-width:1.0;"/><path d="M191,657.0201 L966,657.0201 L966,702.208 A3.5,3.5 0 0 1 962.5,705.708 L194.5,705.708 A3.5,3.5 0 0 1 191,702.208 L191,657.0201 " fill="#D3CDD7" style="stroke:none;stroke-width:1.0;"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="29" x2="29" y1="87.0679" y2="722.708"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="252" x2="252" y1="87.0679" y2="722.708"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="542.5" x2="542.5" y1="87.0679" y2="722.708"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="780" x2="780" y1="453.956" y2="722.708"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="5" y="82.9659">Visitor</text><ellipse cx="29" cy="15" fill="#454645" rx="8" ry="8" style="stroke:#454645;stroke-width:2.0;"/><path d="M29,23 L29,50 M16,31 L42,31 M29,50 L16,65 M29,50 L42,65 " fill="none" style="stroke:#454645;stroke-width:2.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="5" y="736.6739">Visitor</text><ellipse cx="29" cy="750.7759" fill="#454645" rx="8" ry="8" style="stroke:#454645;stroke-width:2.0;"/><path d="M29,758.7759 L29,785.7759 M16,766.7759 L42,766.7759 M29,785.7759 L16,800.7759 M29,785.7759 L42,800.7759 " fill="none" style="stroke:#454645;stroke-width:2.0;"/><rect fill="#FF6347" height="52.1358" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.5;" width="82" x="211" y="33.9321"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="41" x="231.5" y="55.898">«IHM»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="218" y="74.9659">LoginView</text><rect fill="#FF6347" height="52.1358" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.5;" width="82" x="211" y="721.708"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="41" x="231.5" y="743.6739">«IHM»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="218" y="762.7418">LoginView</text><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="498.5" y="82.9659">:UserService</text><ellipse cx="543" cy="52" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><polygon fill="#454645" points="539,40,545,35,543,40,545,45,539,40" style="stroke:#454645;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="498.5" y="736.6739">:UserService</text><ellipse cx="543" cy="756.7759" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><polygon fill="#454645" points="539,744.7759,545,739.7759,543,744.7759,545,749.7759,539,744.7759" style="stroke:#454645;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="753" y="736.6739">u: User</text><ellipse cx="780" cy="756.7759" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><line style="stroke:#454645;stroke-width:2.0;" x1="768" x2="792" y1="770.7759" y2="770.7759"/><rect fill="#FFFFFF" height="55.412" style="stroke:#696969;stroke-width:1.0;" width="10" x="247" y="97.0679"/><rect fill="#FFFFFF" height="386.6979" style="stroke:#696969;stroke-width:1.0;" width="10" x="247" y="327.01"/><rect fill="#FFFFFF" height="137.0999" style="stroke:#696969;stroke-width:1.0;" width="10" x="252" y="576.608"/><rect fill="#FFFFFF" height="16" style="stroke:#696969;stroke-width:1.0;" width="10" x="257" y="697.708"/><rect fill="#FFFFFF" height="179.5301" style="stroke:#696969;stroke-width:1.0;" width="10" x="538" y="192.186"/><rect fill="#FFFFFF" height="97.118" style="stroke:#696969;stroke-width:1.0;" width="10" x="538" y="513.196"/><polygon fill="#454645" points="235,116.7739,245,120.7739,235,124.7739,239,120.7739" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="29" x2="241" y1="120.7739" y2="120.7739"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="36" y="114.9649">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="183" x="47" y="114.9649">Input username and password</text><polygon fill="#454645" points="531,148.4799,541,152.4799,531,156.4799,535,152.4799" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="252" x2="537" y1="152.4799" y2="152.4799"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="259" y="146.6709">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="270" y="146.6709">Search for the user in the DB</text><line style="stroke:#454645;stroke-width:1.0;" x1="543" x2="590" y1="179.186" y2="179.186"/><line style="stroke:#454645;stroke-width:1.0;" x1="590" x2="590" y1="179.186" y2="192.186"/><line style="stroke:#454645;stroke-width:1.0;" x1="549" x2="590" y1="192.186" y2="192.186"/><polygon fill="#454645" points="559,188.186,549,192.186,559,196.186,555,192.186" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="555" y="173.377">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="566" y="173.377">fetch(User)</text><path d="M194.5,212.186 L254,212.186 L254,221.186 L244,231.186 L191,231.186 L191,215.686 A3.5,3.5 0 0 1 194.5,212.186 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="493.522" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="775" x="191" y="212.186"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="206" y="227.083">alt</text><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="58" x="269" y="225.9449">user exists</text></a><line style="stroke:#454645;stroke-width:1.0;" x1="548" x2="590" y1="255.598" y2="255.598"/><line style="stroke:#454645;stroke-width:1.0;" x1="590" x2="590" y1="255.598" y2="268.598"/><line style="stroke:#454645;stroke-width:1.0;" x1="549" x2="590" y1="268.598" y2="268.598"/><polygon fill="#454645" points="559,264.598,549,268.598,559,272.598,555,268.598" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="555" y="249.789">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="566" y="249.789">getStatus()</text><path d="M204.5,283.598 L268,283.598 L268,292.598 L258,302.598 L201,302.598 L201,287.098 A3.5,3.5 0 0 1 204.5,283.598 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="51.412" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="396.5" x="201" y="283.598"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="22" x="216" y="298.495">opt</text><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="163" x="283" y="297.3569">Status == UserStatus.BANNED</text></a><polygon fill="#454645" points="268,323.01,258,327.01,268,331.01,264,327.01" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="262" x2="537" y1="327.01" y2="327.01"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="274" y="321.201">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="285" y="321.201">Looks like you're banned.</text><line style="stroke:#454645;stroke-width:1.0;" x1="548" x2="590" y1="370.716" y2="370.716"/><line style="stroke:#454645;stroke-width:1.0;" x1="590" x2="590" y1="370.716" y2="383.716"/><line style="stroke:#454645;stroke-width:1.0;" x1="543" x2="590" y1="383.716" y2="383.716"/><polygon fill="#454645" points="553,379.716,543,383.716,553,387.716,549,383.716" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="555" y="364.907">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="566" y="364.907">getStatus()</text><path d="M492,393.716 L551.5,393.716 L551.5,402.716 L541.5,412.716 L488.5,412.716 L488.5,397.216 A3.5,3.5 0 0 1 492,393.716 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="80.7739" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="328.5" x="488.5" y="393.716"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="503.5" y="408.6131">alt</text><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="169" x="566.5" y="407.475">Status == UserStatus.DISABLED</text></a><polygon fill="#454645" points="741,433.1281,751,437.1281,741,441.1281,745,437.1281" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="543" x2="747" y1="437.1281" y2="437.1281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="550" y="431.3191">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="561" y="431.3191">setStatus(UserStatus.ACTIVE)</text><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="753" y="460.388">u: User</text><ellipse cx="780" cy="429.4221" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><line style="stroke:#454645;stroke-width:2.0;" x1="768" x2="792" y1="443.4221" y2="443.4221"/><line style="stroke:#454645;stroke-width:1.0;" x1="543" x2="590" y1="500.196" y2="500.196"/><line style="stroke:#454645;stroke-width:1.0;" x1="590" x2="590" y1="500.196" y2="513.196"/><line style="stroke:#454645;stroke-width:1.0;" x1="549" x2="590" y1="513.196" y2="513.196"/><polygon fill="#454645" points="559,509.196,549,513.196,559,517.196,555,513.196" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="555" y="494.387">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="566" y="494.387">Call BCrypt's verifier()</text><path d="M704,493.49 L704,513.49 A3.5,3.5 0 0 0 707.5,516.99 L947.5,516.99 A3.5,3.5 0 0 0 951,513.49 L951,499.99 L941,489.99 L707.5,489.99 A3.5,3.5 0 0 0 704,493.49 " fill="#7FFFD4" style="stroke:#454645;stroke-width:1.5;"/><path d="M941,489.99 L941,498.24 A1.75,1.75 0 0 0 942.75,499.99 L951,499.99 L941,489.99 " fill="#7FFFD4" style="stroke:#454645;stroke-width:1.5;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="710" y="508.887">Passwords are encrypted with BCrypt.</text><path d="M204.5,533.196 L264,533.196 L264,542.196 L254,552.196 L201,552.196 L201,536.696 A3.5,3.5 0 0 1 204.5,533.196 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="85.118" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="396.5" x="201" y="533.196"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="216" y="548.093">alt</text><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="265" x="279" y="546.9549">input password matches its hashed counterpart</text></a><polygon fill="#454645" points="273,572.608,263,576.608,273,580.608,269,576.608" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="267" x2="537" y1="576.608" y2="576.608"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="279" y="570.799">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="290" y="570.799">Welcome back :)</text><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="201" x2="597.5" y1="585.608" y2="585.608"/><polygon fill="#454645" points="273,606.314,263,610.314,273,614.314,269,610.314" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="267" x2="542" y1="610.314" y2="610.314"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="279" y="604.505">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="196" x="297" y="604.505">Username/password is incorrect.</text><polygon fill="#454645" points="768,645.0201,778,649.0201,768,653.0201,772,649.0201" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="262" x2="774" y1="649.0201" y2="649.0201"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="269" y="643.2111">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217" x="287" y="643.2111">Populate object with remaining data</text><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="191" x2="966" y1="658.0201" y2="658.0201"/><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="97" x="196" y="669.779">user doesn't exist</text></a><polygon fill="#454645" points="278,693.708,268,697.708,278,701.708,274,697.708" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="272" x2="542" y1="697.708" y2="697.708"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="284" y="691.899">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239" x="302" y="691.899">We don't have this user in our database.</text><!--MD5=[b5885bd37ddc22a1813d626501be0649]
+@startuml
+!theme vibrant
+
+actor Visitor as V
+participant "LoginView" as IHM << IHM >>
+control ":UserService" as Ctrl
+entity "u: User" as User
+
+autonumber
+
+activate IHM
+V -> IHM: Input username and password
+IHM -> Ctrl: Search for the user in the DB
+deactivate IHM
+Ctrl -> Ctrl: fetch(User)
+
+alt #DDF2EB [If user exists]
+
+   activate Ctrl
+   Ctrl -> Ctrl: getStatus()
+   opt #D3CDD7 [If Status == UserStatus.BANNED]
+      Ctrl - -> IHM ++: Looks like you're banned.
+   end
+
+   Ctrl -> Ctrl - -: getStatus()
+
+   alt #D3CDD7 [If Status == UserStatus.DISABLED]
+      Ctrl -> User **: setStatus(UserStatus.ACTIVE)
+   end
+
+   Ctrl -> Ctrl ++: Call BCrypt's verifier()
+   note right
+      Passwords are encrypted with BCrypt.
+   end note
+
+   alt [If input password matches its hashed counterpart]
+      Ctrl - -> IHM ++: Welcome back :)
+   else
+      Ctrl - -> IHM - -: Username/password is incorrect.
+   end
+
+   IHM -> User: Populate object with remaining data
+   deactivate User
+   
+else #D3CDD7 [If user doesn't exist]
+
+   Ctrl - -> IHM ++: We don't have this user in our database.
+
+end
+@enduml
+
+@startuml
+skinparam BackgroundColor FFFFFF
+skinparam shadowing false
+skinparam RoundCorner 7
+skinparam ArrowColor 454645
+skinparam FontColor 454645
+skinparam SequenceLifeLineBorderColor 696969
+skinparam SequenceGroupHeaderFontColor 454645
+skinparam SequenceGroupFontColor 696969
+skinparam SequenceGroupBorderColor 696969
+skinparam SequenceGroupBorderThickness 1
+
+skinparam sequenceDivider {
+    BorderColor 454645
+    BorderThickness 1
+    FontColor 454645
+}
+
+skinparam participant {
+    BackgroundColor FF6347
+    BorderColor 454645
+    FontColor FFFFFF
+    BorderThickness 1.5
+}
+
+skinparam database {
+    BackgroundColor 00FFFF
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam entity {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam note {
+    BackgroundColor 7FFFD4
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1.5
+}
+
+skinparam actor {
+    BackgroundColor 454645
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam boundary {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam control {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam collections {
+    BackgroundColor FF5F42
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam queue {
+    BackgroundColor FF6347
+    BorderColor 454645
+    FontColor FFF
+    BorderThickness 1.5
+}
+
+actor Visitor as V
+participant "LoginView" as IHM << IHM >>
+control ":UserService" as Ctrl
+entity "u: User" as User
+
+autonumber
+
+activate IHM
+V -> IHM: Input username and password
+IHM -> Ctrl: Search for the user in the DB
+deactivate IHM
+Ctrl -> Ctrl: fetch(User)
+
+alt #DDF2EB [If user exists]
+
+   activate Ctrl
+   Ctrl -> Ctrl: getStatus()
+   opt #D3CDD7 [If Status == UserStatus.BANNED]
+      Ctrl - -> IHM ++: Looks like you're banned.
+   end
+
+   Ctrl -> Ctrl - -: getStatus()
+
+   alt #D3CDD7 [If Status == UserStatus.DISABLED]
+      Ctrl -> User **: setStatus(UserStatus.ACTIVE)
+   end
+
+   Ctrl -> Ctrl ++: Call BCrypt's verifier()
+   note right
+      Passwords are encrypted with BCrypt.
+   end note
+
+   alt [If input password matches its hashed counterpart]
+      Ctrl - -> IHM ++: Welcome back :)
+   else
+      Ctrl - -> IHM - -: Username/password is incorrect.
+   end
+
+   IHM -> User: Populate object with remaining data
+   deactivate User
+   
+else #D3CDD7 [If user doesn't exist]
+
+   Ctrl - -> IHM ++: We don't have this user in our database.
+
+end
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 18:25:22 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

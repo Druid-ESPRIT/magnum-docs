@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1197px" preserveAspectRatio="none" style="width:1480px;height:1197px;background:#FFFFFF;" version="1.1" viewBox="0 0 1480 1197" width="1480px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="145.8241" style="stroke:#696969;stroke-width:1.0;" width="10" x="49" y="437.49"/><rect fill="#FFFFFF" height="150.5301" style="stroke:#696969;stroke-width:1.0;" width="10" x="333" y="97.0679"/><rect fill="#FFFFFF" height="145.8241" style="stroke:#696969;stroke-width:1.0;" width="10" x="333" y="437.49"/><rect fill="#FFFFFF" height="151.806" style="stroke:#696969;stroke-width:1.0;" width="10" x="333" y="648.7261"/><rect fill="#FFFFFF" height="271.6481" style="stroke:#696969;stroke-width:1.0;" width="10" x="492" y="832.2381"/><rect fill="#FFFFFF" height="208.2361" style="stroke:#696969;stroke-width:1.0;" width="10" x="497" y="895.6501"/><rect fill="#FFFFFF" height="118.118" style="stroke:#696969;stroke-width:1.0;" width="10" x="502" y="985.7681"/><rect fill="#FFFFFF" height="31.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1022" y="215.892"/><rect fill="#FFFFFF" height="573.9842" style="stroke:#696969;stroke-width:1.0;" width="10" x="1022" y="513.902"/><rect fill="#FFFFFF" height="37.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1027" y="545.608"/><rect fill="#FFFFFF" height="31.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1027" y="1056.1802"/><rect fill="#FFFFFF" height="31.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1344.5" y="247.598"/><rect fill="#DDF2EB" height="112.4799" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="436" x="968" y="294.304"/><rect fill="#BC9CB0" height="490.5721" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="1463" x="10" y="605.314"/><path d="M10,656.7261 L1473,656.7261 L1473,733.62 A3.5,3.5 0 0 1 1469.5,737.12 L13.5,737.12 A3.5,3.5 0 0 1 10,733.62 L10,656.7261 " fill="#D3CDD7" style="stroke:none;stroke-width:1.0;"/><path d="M10,737.12 L1473,737.12 L1473,1092.3862 A3.5,3.5 0 0 1 1469.5,1095.8862 L13.5,1095.8862 A3.5,3.5 0 0 1 10,1092.3862 L10,737.12 " fill="#DDF2EB" style="stroke:none;stroke-width:1.0;"/><rect fill="#FFFFFF" height="83.118" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="1384" x="20" y="942.3561"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="54" x2="54" y1="87.0679" y2="1112.8862"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="338" x2="338" y1="87.0679" y2="1112.8862"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="497" x2="497" y1="87.0679" y2="1112.8862"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1027" x2="1027" y1="87.0679" y2="1112.8862"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1194.5" x2="1194.5" y1="354.544" y2="1112.8862"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1349" x2="1349" y1="87.0679" y2="1112.8862"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1431" x2="1431" y1="87.0679" y2="1112.8862"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="30" y="82.9659">Visitor</text><ellipse cx="54" cy="15" fill="#454645" rx="8" ry="8" style="stroke:#454645;stroke-width:2.0;"/><path d="M54,23 L54,50 M41,31 L67,31 M54,50 L41,65 M54,50 L67,65 " fill="none" style="stroke:#454645;stroke-width:2.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="30" y="1126.8521">Visitor</text><ellipse cx="54" cy="1140.9541" fill="#454645" rx="8" ry="8" style="stroke:#454645;stroke-width:2.0;"/><path d="M54,1148.9541 L54,1175.9541 M41,1156.9541 L67,1156.9541 M54,1175.9541 L41,1190.9541 M54,1175.9541 L67,1190.9541 " fill="none" style="stroke:#454645;stroke-width:2.0;"/><rect fill="#FF6347" height="52.1358" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.5;" width="152" x="262" y="33.9321"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="41" x="317.5" y="55.898">«IHM»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="269" y="74.9659">ForgotPasswordView</text><rect fill="#FF6347" height="52.1358" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.5;" width="152" x="262" y="1111.8862"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="41" x="317.5" y="1133.8521">«IHM»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="269" y="1152.92">ForgotPasswordView</text><rect fill="#FF6347" height="52.1358" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.5;" width="146" x="424" y="33.9321"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="41" x="476.5" y="55.898">«IHM»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="431" y="74.9659">ResetPasswordView</text><rect fill="#FF6347" height="52.1358" rx="3.5" ry="3.5" style="stroke:#454645;stroke-width:1.5;" width="146" x="424" y="1111.8862"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="41" x="476.5" y="1133.8521">«IHM»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="431" y="1152.92">ResetPasswordView</text><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="978" y="82.9659">:TokenService</text><ellipse cx="1027" cy="52" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><polygon fill="#454645" points="1023,40,1029,35,1027,40,1029,45,1023,40" style="stroke:#454645;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="978" y="1126.8521">:TokenService</text><ellipse cx="1027" cy="1146.9541" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><polygon fill="#454645" points="1023,1134.9541,1029,1129.9541,1027,1134.9541,1029,1139.9541,1023,1134.9541" style="stroke:#454645;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="1165.5" y="1126.8521">t :Token</text><ellipse cx="1195" cy="1146.9541" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><line style="stroke:#454645;stroke-width:2.0;" x1="1183" x2="1207" y1="1160.9541" y2="1160.9541"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1305" y="82.9659">:UserService</text><ellipse cx="1349.5" cy="52" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><polygon fill="#454645" points="1345.5,40,1351.5,35,1349.5,40,1351.5,45,1345.5,40" style="stroke:#454645;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1305" y="1126.8521">:UserService</text><ellipse cx="1349.5" cy="1146.9541" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><polygon fill="#454645" points="1345.5,1134.9541,1351.5,1129.9541,1349.5,1134.9541,1351.5,1139.9541,1345.5,1134.9541" style="stroke:#454645;stroke-width:1.0;"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1404" y="82.9659">u :User</text><ellipse cx="1431" cy="52" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><line style="stroke:#454645;stroke-width:2.0;" x1="1419" x2="1443" y1="66" y2="66"/><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="1404" y="1126.8521">u :User</text><ellipse cx="1431" cy="1146.9541" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><line style="stroke:#454645;stroke-width:2.0;" x1="1419" x2="1443" y1="1160.9541" y2="1160.9541"/><rect fill="#FFFFFF" height="145.8241" style="stroke:#696969;stroke-width:1.0;" width="10" x="49" y="437.49"/><rect fill="#FFFFFF" height="150.5301" style="stroke:#696969;stroke-width:1.0;" width="10" x="333" y="97.0679"/><rect fill="#FFFFFF" height="145.8241" style="stroke:#696969;stroke-width:1.0;" width="10" x="333" y="437.49"/><rect fill="#FFFFFF" height="151.806" style="stroke:#696969;stroke-width:1.0;" width="10" x="333" y="648.7261"/><rect fill="#FFFFFF" height="271.6481" style="stroke:#696969;stroke-width:1.0;" width="10" x="492" y="832.2381"/><rect fill="#FFFFFF" height="208.2361" style="stroke:#696969;stroke-width:1.0;" width="10" x="497" y="895.6501"/><rect fill="#FFFFFF" height="118.118" style="stroke:#696969;stroke-width:1.0;" width="10" x="502" y="985.7681"/><rect fill="#FFFFFF" height="31.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1022" y="215.892"/><rect fill="#FFFFFF" height="573.9842" style="stroke:#696969;stroke-width:1.0;" width="10" x="1022" y="513.902"/><rect fill="#FFFFFF" height="37.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1027" y="545.608"/><rect fill="#FFFFFF" height="31.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1027" y="1056.1802"/><rect fill="#FFFFFF" height="31.706" style="stroke:#696969;stroke-width:1.0;" width="10" x="1344.5" y="247.598"/><polygon fill="#454645" points="321,116.7739,331,120.7739,321,124.7739,325,120.7739" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="54" x2="327" y1="120.7739" y2="120.7739"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61" y="114.9649">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="72" y="114.9649">Click the "Forgot password?" button</text><polygon fill="#454645" points="354,148.4799,344,152.4799,354,156.4799,350,152.4799" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="348" x2="1026" y1="152.4799" y2="152.4799"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="360" y="146.6709">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="371" y="146.6709">Enter your username</text><polygon fill="#454645" points="321,180.186,331,184.186,321,188.186,325,184.186" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="54" x2="327" y1="184.186" y2="184.186"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="61" y="178.377">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="72" y="178.377">Provide username</text><polygon fill="#454645" points="1010,211.892,1020,215.892,1010,219.892,1014,215.892" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="343" x2="1016" y1="215.892" y2="215.892"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="350" y="210.083">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="361" y="210.083">Search for the user in the DB</text><polygon fill="#454645" points="349,243.598,339,247.598,349,251.598,345,247.598" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="343" x2="1026" y1="247.598" y2="247.598"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="355" y="241.789">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="644" x="366" y="241.789">If the username exists, you will have received a token in your mail which you can use to reset your password.</text><polygon fill="#454645" points="1337.5,275.304,1347.5,279.304,1337.5,283.304,1341.5,279.304" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1027" x2="1343.5" y1="279.304" y2="279.304"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1034" y="273.495">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1045" y="273.495">fetchOne(User)</text><path d="M971.5,294.304 L1035,294.304 L1035,303.304 L1025,313.304 L968,313.304 L968,297.804 A3.5,3.5 0 0 1 971.5,294.304 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="112.4799" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="436" x="968" y="294.304"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="22" x="983" y="309.201">opt</text><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="58" x="1050" y="308.0629">user exists</text></a><polygon fill="#454645" points="1235.5,333.716,1225.5,337.716,1235.5,341.716,1231.5,337.716" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1229.5" x2="1348.5" y1="337.716" y2="337.716"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1241.5" y="331.907">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="1252.5" y="331.907">generate(User)</text><text fill="#454645" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="1165.5" y="360.976">t :Token</text><ellipse cx="1195" cy="330.01" fill="#FFE552" rx="12" ry="12" style="stroke:#454645;stroke-width:2.0;"/><line style="stroke:#454645;stroke-width:2.0;" x1="1183" x2="1207" y1="344.01" y2="344.01"/><polygon fill="#454645" points="1038,394.784,1028,398.784,1038,402.784,1034,398.784" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1032" x2="1348.5" y1="398.784" y2="398.784"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1044" y="392.975">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="1055" y="392.975">sendMail()</text><polygon fill="#454645" points="354,433.49,344,437.49,354,441.49,350,437.49" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="348" x2="1026" y1="437.49" y2="437.49"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="360" y="431.681">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="371" y="431.681">Token generated</text><line style="stroke:#454645;stroke-width:1.0;" x1="59" x2="101" y1="469.196" y2="469.196"/><line style="stroke:#454645;stroke-width:1.0;" x1="101" x2="101" y1="469.196" y2="482.196"/><line style="stroke:#454645;stroke-width:1.0;" x1="60" x2="101" y1="482.196" y2="482.196"/><polygon fill="#454645" points="70,478.196,60,482.196,70,486.196,66,482.196" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="66" y="463.387">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="242" x="84" y="463.387">Search through emails for security token</text><polygon fill="#454645" points="321,509.902,331,513.902,321,517.902,325,513.902" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="59" x2="327" y1="513.902" y2="513.902"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="66" y="508.093">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="84" y="508.093">Input security token</text><polygon fill="#454645" points="1015,541.608,1025,545.608,1015,549.608,1019,545.608" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="343" x2="1021" y1="545.608" y2="545.608"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="350" y="539.799">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="368" y="539.799">Search for the token in the DB</text><line style="stroke:#454645;stroke-width:1.0;" x1="1037" x2="1079" y1="582.314" y2="582.314"/><line style="stroke:#454645;stroke-width:1.0;" x1="1079" x2="1079" y1="582.314" y2="595.314"/><line style="stroke:#454645;stroke-width:1.0;" x1="1032" x2="1079" y1="595.314" y2="595.314"/><polygon fill="#454645" points="1042,591.314,1032,595.314,1042,599.314,1038,595.314" style="stroke:#454645;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1044" y="576.505">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="1062" y="576.505">searchToken(Token)</text><path d="M13.5,605.314 L73,605.314 L73,614.314 L63,624.314 L10,624.314 L10,608.814 A3.5,3.5 0 0 1 13.5,605.314 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="490.5721" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="1463" x="10" y="605.314"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="18" x="25" y="620.2111">alt</text><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="72" x="88" y="619.073">token invalid</text></a><polygon fill="#454645" points="354,644.7261,344,648.7261,354,652.7261,350,648.7261" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="348" x2="1021" y1="648.7261" y2="648.7261"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="360" y="642.9171">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="378" y="642.9171">Token is invalid</text><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1473" y1="657.7261" y2="657.7261"/><a href="If" target="_top" title="If" xlink:actuate="onRequest" xlink:href="If" xlink:show="new" xlink:title="If" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="78" x="15" y="669.485">token expired</text></a><polygon fill="#454645" points="354,693.414,344,697.414,354,701.414,350,697.414" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="348" x2="1021" y1="697.414" y2="697.414"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="360" y="691.605">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97" x="378" y="691.605">Token is expired</text><polygon fill="#454645" points="1183,725.12,1193,729.12,1183,733.12,1187,729.12" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1032" x2="1189" y1="729.12" y2="729.12"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1039" y="723.311">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="1057" y="723.311">remove(Token)</text><line style="stroke:#696969;stroke-width:2.0;" x1="1186" x2="1204" y1="720.12" y2="738.12"/><line style="stroke:#696969;stroke-width:2.0;" x1="1186" x2="1204" y1="738.12" y2="720.12"/><line style="stroke:#696969;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="1473" y1="738.12" y2="738.12"/><polygon fill="#454645" points="1183,761.826,1193,765.826,1183,769.826,1187,765.826" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1032" x2="1189" y1="765.826" y2="765.826"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1039" y="760.017">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="1057" y="760.017">consume(Token)</text><path d="M1200,747.62 L1200,767.62 A3.5,3.5 0 0 0 1203.5,771.12 L1454.5,771.12 A3.5,3.5 0 0 0 1458,767.62 L1458,754.12 L1448,744.12 L1203.5,744.12 A3.5,3.5 0 0 0 1200,747.62 " fill="#7FFFD4" style="stroke:#454645;stroke-width:1.5;"/><path d="M1448,744.12 L1448,752.37 A1.75,1.75 0 0 0 1449.75,754.12 L1458,754.12 L1448,744.12 " fill="#7FFFD4" style="stroke:#454645;stroke-width:1.5;"/><text fill="#454645" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="237" x="1206" y="763.017">Consumed tokens are no longer usable.</text><line style="stroke:#696969;stroke-width:2.0;" x1="1186" x2="1204" y1="756.826" y2="774.826"/><line style="stroke:#696969;stroke-width:2.0;" x1="1186" x2="1204" y1="774.826" y2="756.826"/><polygon fill="#454645" points="349,796.532,339,800.532,349,804.532,345,800.532" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="343" x2="1021" y1="800.532" y2="800.532"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="355" y="794.723">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="373" y="794.723">Token is valid</text><polygon fill="#454645" points="513,828.2381,503,832.2381,513,836.2381,509,832.2381" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="507" x2="1021" y1="832.2381" y2="832.2381"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="519" y="826.429">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="537" y="826.429">Enter your new password</text><polygon fill="#454645" points="480,859.9441,490,863.9441,480,867.9441,484,863.9441" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="54" x2="486" y1="863.9441" y2="863.9441"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="61" y="858.1351">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="79" y="858.1351">Provide password</text><polygon fill="#454645" points="518,891.6501,508,895.6501,518,899.6501,514,895.6501" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="512" x2="1021" y1="895.6501" y2="895.6501"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="524" y="889.8411">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="542" y="889.8411">Confirm your new password</text><polygon fill="#454645" points="485,923.3561,495,927.3561,485,931.3561,489,927.3561" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="54" x2="491" y1="927.3561" y2="927.3561"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="61" y="921.5471">22</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="79" y="921.5471">Confirm password</text><path d="M23.5,942.3561 L93,942.3561 L93,951.3561 L83,961.3561 L20,961.3561 L20,945.8561 A3.5,3.5 0 0 1 23.5,942.3561 " fill="#EEEEEE" style="stroke:#696969;stroke-width:1.0;"/><rect fill="none" height="83.118" rx="3.5" ry="3.5" style="stroke:#696969;stroke-width:1.0;" width="1384" x="20" y="942.3561"/><text fill="#454645" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="35" y="957.2531">loop</text><a href="while" target="_top" title="while" xlink:actuate="onRequest" xlink:href="while" xlink:show="new" xlink:title="while" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" text-decoration="underline" textLength="191" x="108" y="956.115">password != confirmationPassword</text></a><polygon fill="#454645" points="523,981.7681,513,985.7681,523,989.7681,519,985.7681" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="517" x2="1348.5" y1="985.7681" y2="985.7681"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="529" y="979.9591">23</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="284" x="547" y="979.9591">The provided passwords don't match, try again.</text><polygon fill="#454645" points="490,1013.4742,500,1017.4742,490,1021.4742,494,1017.4742" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="54" x2="496" y1="1017.4742" y2="1017.4742"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="61" y="1011.6651">24</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="79" y="1011.6651">Input password</text><polygon fill="#454645" points="1015,1052.1802,1025,1056.1802,1015,1060.1802,1019,1056.1802" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="512" x2="1021" y1="1056.1802" y2="1056.1802"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="519" y="1050.3712">25</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="537" y="1050.3712">Reset the user's password</text><polygon fill="#454645" points="1419,1083.8862,1429,1087.8862,1419,1091.8862,1423,1087.8862" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="1032" x2="1425" y1="1087.8862" y2="1087.8862"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1039" y="1082.0772">26</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240" x="1057" y="1082.0772">Update user credentials — update(User)</text><!--MD5=[21a553eaf4fb3d0506cfa66e69f7506c]
+@startuml
+!theme vibrant
+
+actor Visitor as V
+participant "ForgotPasswordView" as IHMFP << IHM >>
+participant "ResetPasswordView" as IHMRP << IHM >>
+control ":TokenService" as TCtrl
+entity "t :Token" as Token
+control ":UserService" as UCtrl
+entity "u :User" as User
+
+autonumber
+
+activate IHMFP
+V -> IHMFP: Click the "Forgot password?" button
+TCtrl - -> IHMFP: Enter your username
+V -> IHMFP: Provide username
+IHMFP -> TCtrl ++: Search for the user in the DB
+TCtrl - -> IHMFP - -: If the username exists, you will have received a token in your mail which you can use to reset your password.
+deactivate IHMFP
+
+activate UCtrl
+TCtrl -> UCtrl: fetchOne(User)
+deactivate UCtrl
+
+opt #DDF2EB [If user exists]
+   UCtrl -> Token **: generate(User)
+   UCtrl -> TCtrl: sendMail()
+end
+
+TCtrl - -> IHMFP - -: Token generated
+deactivate TCtrl
+
+activate IHMFP
+activate V
+V -> V: Search through emails for security token
+V -> IHMFP: Input security token
+activate TCtrl
+IHMFP -> TCtrl++: Search for the token in the DB
+TCtrl -> TCtrl- -: searchToken(Token)
+deactivate IHMFP
+deactivate V
+
+alt #BC9CB0 [If token invalid]
+   TCtrl - -> IHMFP ++: Token is invalid
+else #D3CDD7 [If token expired]
+   TCtrl - -> IHMFP: Token is expired
+   TCtrl -> Token !!: remove(Token)
+else #DDF2EB
+   TCtrl -> Token !!: consume(Token)
+   note right 
+      Consumed tokens are no longer usable.
+   end note
+   TCtrl - -> IHMFP: Token is valid
+
+   deactivate IHMFP
+
+   TCtrl - -> IHMRP ++: Enter your new password
+   V -> IHMRP - -: Provide password
+
+   TCtrl - -> IHMRP ++: Confirm your new password
+   V -> IHMRP - -: Confirm password
+
+   loop [while password != confirmationPassword] 
+      UCtrl - -> IHMRP ++: The provided passwords don't match, try again.
+      V -> IHMRP - -: Input password
+   end
+
+   IHMRP -> TCtrl ++: Reset the user's password
+   TCtrl -> User - -: Update user credentials — update(User)
+
+end
+@enduml
+
+@startuml
+skinparam BackgroundColor FFFFFF
+skinparam shadowing false
+skinparam RoundCorner 7
+skinparam ArrowColor 454645
+skinparam FontColor 454645
+skinparam SequenceLifeLineBorderColor 696969
+skinparam SequenceGroupHeaderFontColor 454645
+skinparam SequenceGroupFontColor 696969
+skinparam SequenceGroupBorderColor 696969
+skinparam SequenceGroupBorderThickness 1
+
+skinparam sequenceDivider {
+    BorderColor 454645
+    BorderThickness 1
+    FontColor 454645
+}
+
+skinparam participant {
+    BackgroundColor FF6347
+    BorderColor 454645
+    FontColor FFFFFF
+    BorderThickness 1.5
+}
+
+skinparam database {
+    BackgroundColor 00FFFF
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam entity {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam note {
+    BackgroundColor 7FFFD4
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1.5
+}
+
+skinparam actor {
+    BackgroundColor 454645
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam boundary {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam control {
+    BackgroundColor FFE552
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam collections {
+    BackgroundColor FF5F42
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam queue {
+    BackgroundColor FF6347
+    BorderColor 454645
+    FontColor FFF
+    BorderThickness 1.5
+}
+
+actor Visitor as V
+participant "ForgotPasswordView" as IHMFP << IHM >>
+participant "ResetPasswordView" as IHMRP << IHM >>
+control ":TokenService" as TCtrl
+entity "t :Token" as Token
+control ":UserService" as UCtrl
+entity "u :User" as User
+
+autonumber
+
+activate IHMFP
+V -> IHMFP: Click the "Forgot password?" button
+TCtrl - -> IHMFP: Enter your username
+V -> IHMFP: Provide username
+IHMFP -> TCtrl ++: Search for the user in the DB
+TCtrl - -> IHMFP - -: If the username exists, you will have received a token in your mail which you can use to reset your password.
+deactivate IHMFP
+
+activate UCtrl
+TCtrl -> UCtrl: fetchOne(User)
+deactivate UCtrl
+
+opt #DDF2EB [If user exists]
+   UCtrl -> Token **: generate(User)
+   UCtrl -> TCtrl: sendMail()
+end
+
+TCtrl - -> IHMFP - -: Token generated
+deactivate TCtrl
+
+activate IHMFP
+activate V
+V -> V: Search through emails for security token
+V -> IHMFP: Input security token
+activate TCtrl
+IHMFP -> TCtrl++: Search for the token in the DB
+TCtrl -> TCtrl- -: searchToken(Token)
+deactivate IHMFP
+deactivate V
+
+alt #BC9CB0 [If token invalid]
+   TCtrl - -> IHMFP ++: Token is invalid
+else #D3CDD7 [If token expired]
+   TCtrl - -> IHMFP: Token is expired
+   TCtrl -> Token !!: remove(Token)
+else #DDF2EB
+   TCtrl -> Token !!: consume(Token)
+   note right 
+      Consumed tokens are no longer usable.
+   end note
+   TCtrl - -> IHMFP: Token is valid
+
+   deactivate IHMFP
+
+   TCtrl - -> IHMRP ++: Enter your new password
+   V -> IHMRP - -: Provide password
+
+   TCtrl - -> IHMRP ++: Confirm your new password
+   V -> IHMRP - -: Confirm password
+
+   loop [while password != confirmationPassword] 
+      UCtrl - -> IHMRP ++: The provided passwords don't match, try again.
+      V -> IHMRP - -: Input password
+   end
+
+   IHMRP -> TCtrl ++: Reset the user's password
+   TCtrl -> User - -: Update user credentials — update(User)
+
+end
+@enduml
+
+PlantUML version 1.2021.16(Wed Dec 08 18:25:22 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
