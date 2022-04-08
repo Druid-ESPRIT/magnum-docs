@@ -3,109 +3,144 @@
 
 * Modules
 ** User Management
-The user table defines the model of the possible actors of Magnum, i.e. its
-users, e.g.:
-- Regular users
-- Content creators
-- Administrators
+#+begin_src plantuml :file uml/class-diagram.svg
+package com.druid.gui.views {
+   class LoginView {
+      + void start()
+      + void handleLoginClick()
+      + void handleResetPasswordClick()
+   }
 
-*** Users
-:PROPERTIES:
-:CUSTOM_ID: users
-:END:
+   class ForgotPasswordView {
+      + void start()
+      + void handleSendClick()
+      + void handleCancelClick()
+   }
 
-#+BEGIN_EXAMPLE
-+----------------------------+
-|            Users           |
-|----------------------------|
-| ID: int                    |
-| username: String           |
-| email: String              |
-| password: String           |
-| biography: String          |
-| avatar: String             |
-| status: enum<Status>       |
-| admin: bool                |
-| score: int                 |
-+----------------------------+
-
-Status {
-    Disabled,
-    Banned,
+   class ResetPasswordView {
+      + void start()
+      + void handleUpdateClick()
+      + void handleCancelClick()
+   }
 }
-#+END_EXAMPLE
 
-*** History
-#+BEGIN_EXAMPLE
-+----------------------------+
-| History                    |
-|----------------------------|
-| ID: int                    |
-| userID: int                |
-| activity: enum<Activities> |
-| description: String        |
-| time: Date                 |
-+----------------------------+
+package com.druid.services {
+   class UserService {
+      + void update()
+      + Optional<User> fetchOne(User)
+      + Optional<User> authenticate()
+   }
 
-enum Activities {
-  Security,
-  Billing,
-  Profile,
+   class TokenService {
+      + void generate()
+      + void consume()
+      + Optional<Token> fetchOne(Token)
+   }
 }
-#+END_EXAMPLE
 
-Attributes:
-- ~userID~: References the /ID/ column of the [[#users][Users]] table.
+package com.druid.enums {
+   enum UserStatus {
+      ACTIVE 
+      DISABLED
+      BANNED
+   }
 
-*** Flags
-:PROPERTIES:
-:CUSTOM_ID: flags
-:END:
-Our flagging system allows the user to report another person based on a certain offense.
+   enum Activities {
+      SECURITY
+      BILLING
+      PROFILE
+   }
 
-Flagging someone directly affects their score. Administrators are notified and called to manually review (and ban if necessary) the accounts of users whose score has reached the minimum threshold.
-
-#+BEGIN_EXAMPLE
-+---------------------+
-| Flags               |
-|---------------------|
-| ID: int             |
-| userID: int         |
-| offenseID: String   |
-| description: String |
-| dateFlagged: Date   |
-+---------------------+
-#+END_EXAMPLE
-
-Attributes:
-- ~userID~: References the /ID/ column of the [[#users][Users]] table.
-- ~offenseID~: References the /ID/ column of the [[#offenses][Offenses]] table.
-
-*** Offenses
-:PROPERTIES:
-:CUSTOM_ID: offenses
-:END:
-
-This table holds all possible types of offenses, which is directly linked with the [[#flags][Flags]] table.
-
-#+BEGIN_EXAMPLE
-+-------------------------+
-| Offenses                |
-|-------------------------|
-| ID: int                 |
-| deduction: int          |
-| kind: enum<Kind>        |
-+-------------------------+
-
-enum Kind {
-  Harassment,
-  Spam,
-  Violence,
+   enum Offense {
+      HARASSMENT 
+      SPAM
+      VIOLENCE
+   }
 }
-#+END_EXAMPLE
 
-Attributes:
-- ~deduction~: The amount of points to deduct from a user's score.
+package com.druid.models #DDDDDD {
+
+Users <|-- Podcaster
+Users <|-- Administrator
+Users "1" --> "*" Tokens: Generates
+
+   class Users {
+      - ID: int 
+      - firstName: String 
+      - lastName: String 
+      - username: String 
+      - password: String 
+      - email: String 
+      - status: Enum<UserStatus>
+      - avatar: String
+      + void create(User)
+      + void get(User)
+      + void update(User)
+      + void delete(User)
+   }
+
+   class Podcaster {
+      - ID: int
+      - firstName: String 
+      - lastName: String 
+      - biography: String 
+   }
+
+   class Administrator {
+      - ID: int
+      - firstName: String 
+      - lastName: String 
+   }
+
+   class Tokens {
+      - ID: int 
+      - userID: int 
+      - token: String 
+      - consumed: boolean 
+      - created: Timestamp 
+      + void create(Token)
+      + void get(Token)
+      + void update(Token)
+      + void delete(Token)
+   }
+
+    class History {
+      - ID: int
+      - userID: int
+      - activity: enum<Activities>
+      - description: String
+      - time: Date
+      + void create(History)
+      + void get(History)
+      + void update(History)
+      + void delete(History)
+    }
+
+    class Flags {
+      - ID: int
+      - flaggedID: int
+      - flaggerID: int
+      -	offense: Offense
+      - description: String
+      - time: Timestamp
+    }
+}
+
+note left of Tokens::token
+   Tokens are secure strings 
+   of text that can allow a 
+   user that has forgotten 
+   their password to recover 
+   their account.
+end note
+
+Users --> UserStatus
+History --> Activities
+Flags --> Offense
+#+end_src
+
+#+RESULTS:
+[[file:uml/class-diagram.svg]]
 
 ** Podcast Management
 *** Podcasts
@@ -181,7 +216,7 @@ Attributes:
 #+END_EXAMPLE
 
 Attributes:
-- ~userID~: References the /ID/ column of the [[#users][Users]] table.
+- ~userID~: References the /ID/ column of the [[User Management][Users]] table.
 - ~articleID~: References the /ID/ column of the [[#articles][Articles]] table.
 
 ** Subscription Management
@@ -212,7 +247,7 @@ by them.
 #+END_EXAMPLE
 
 Attributes:
-- ~userID~: References the /ID/ column of the [[#users][Users]] table.
+- ~userID~: References the /ID/ column of the [[User Management][Users]] table.
 - ~subscriptionID~: References the /ID/ column of the [[#subscriptions][Subscription]] table.
 
 *** Subscriptions
@@ -231,7 +266,7 @@ Attributes:
 #+END_EXAMPLE
 
 Attributes:
-- ~podcasterID~: References the /ID/ column of the [[#users][Users]] table.
+- ~podcasterID~: References the /ID/ column of the [[User Management][Users]] table.
 
 ** Ticket Management
 *** Ticket
@@ -255,8 +290,8 @@ enum Status {
 #+END_EXAMPLE
 
 Attributes:
-- ~submittedBy~: References the ID column of the [[#users][Users]] table - The user that submitted the ticket.
-- ~resolvedBy~: References the ID column of the [[#users][Users]] table - The user that resolved/handled the ticket.
+- ~submittedBy~: References the ID column of the [[User Management][Users]] table - The user that submitted the ticket.
+- ~resolvedBy~: References the ID column of the [[User Management][Users]] table - The user that resolved/handled the ticket.
 - ~kindID~: References the ID column of the [[#ticket-kind][Ticket Kind]] table.
 
 *** Ticket Kind
