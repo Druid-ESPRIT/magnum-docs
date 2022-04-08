@@ -62,7 +62,14 @@ package com.druid.models #DDDDDD {
 
 Users <|-- Podcaster
 Users <|-- Administrator
+
 Users "1" --> "*" Tokens: Generates
+Users "1" --> "*" History: Logs
+Users "1" --> "*" Flags: Flags
+
+Users --> UserStatus
+History --> Activities
+Flags --> Offense
 
    class Users {
       - ID: int 
@@ -133,10 +140,6 @@ note left of Tokens::token
    their password to recover 
    their account.
 end note
-
-Users --> UserStatus
-History --> Activities
-Flags --> Offense
 #+end_src
 
 #+RESULTS:
