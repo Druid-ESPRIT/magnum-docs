@@ -4,61 +4,25 @@
 * Modules
 ** User Management
 #+begin_src plantuml :file export/class/user.svg
-package com.druid.gui.views {
-   class LoginView {
-      + void start()
-      + void handleLoginClick()
-      + void handleResetPasswordClick()
+package Controller {
+
+   class LoginController {
+      + __construct(EntityManagerInterface, UrlGeneratorInterface, CsrfTokenManagerInterface, UserPasswordEncoderInterface)
+      + ?User getUser(UserProviderInterface)
+      + ?User getCredentials(Request)
+      + bool checkCredentials(UserInterface)
+      + ?string getPassword($credentials)
+      + ?Response onAuthenticationSuccess(Request, TokenInterface)
+      ~ getLoginUrl(): string
    }
 
-   class ForgotPasswordView {
-      + void start()
-      + void handleSendClick()
-      + void handleCancelClick()
-   }
-
-   class ResetPasswordView {
-      + void start()
-      + void handleUpdateClick()
-      + void handleCancelClick()
-   }
-}
-
-package com.druid.services {
-   class UserService {
-      + void update()
-      + Optional<User> fetchOne(User)
-      + Optional<User> authenticate()
-   }
-
-   class TokenService {
+   class TokenController {
       + void generate()
       + void consume()
-      + Optional<Token> fetchOne(Token)
    }
 }
 
-package com.druid.enums {
-   enum UserStatus {
-      ACTIVE 
-      DISABLED
-      BANNED
-   }
-
-   enum Activities {
-      SECURITY
-      BILLING
-      PROFILE
-   }
-
-   enum Offense {
-      HARASSMENT 
-      SPAM
-      VIOLENCE
-   }
-}
-
-package com.druid.models #DDDDDD {
+package Entity #DDDDDD {
 
 Users <|-- Podcaster
 Users <|-- Administrator
@@ -78,7 +42,7 @@ Flags --> Offense
       - username: String 
       - password: String 
       - email: String 
-      - status: Enum<UserStatus>
+      - status: String
       - avatar: String
       + void create(User)
       + void get(User)
@@ -114,7 +78,7 @@ Flags --> Offense
     class History {
       - ID: int
       - userID: int
-      - activity: enum<Activities>
+      - activity: String
       - description: String
       - time: Date
       + void create(History)
@@ -143,7 +107,7 @@ end note
 #+end_src
 
 #+RESULTS:
-[[file:uml/class-diagram.svg]]
+[[file:export/class/user.svg]]
 
 ** Podcast Management
 *** Podcasts

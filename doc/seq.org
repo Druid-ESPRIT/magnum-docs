@@ -8,14 +8,14 @@
 
 actor Visitor as V
 participant "LoginView" as IHM << IHM >>
-control ":UserService" as Ctrl
+control ":UserController" as Ctrl
 entity "u: User" as User
 
 autonumber
 
 activate IHM
 V -> IHM: Input username and password
-IHM -> Ctrl: Search for the user in the DB
+IHM -> Ctrl: Search for the user in the database
 deactivate IHM
 Ctrl -> Ctrl: fetch(User)
 
@@ -55,7 +55,7 @@ end
 #+end_src
 
 #+RESULTS:
-[[file:uml/user-seq.svg]]
+[[file:export/seq/user-auth.svg]]
 
 ** Token Generation
 #+begin_src plantuml :file export/seq/token-gen.svg
@@ -64,9 +64,9 @@ end
 actor Visitor as V
 participant "ForgotPasswordView" as IHMFP << IHM >>
 participant "ResetPasswordView" as IHMRP << IHM >>
-control ":TokenService" as TCtrl
+control ":TokenController" as TCtrl
 entity "t :Token" as Token
-control ":UserService" as UCtrl
+control ":UserController" as UCtrl
 entity "u :User" as User
 
 autonumber
@@ -75,7 +75,7 @@ activate IHMFP
 V -> IHMFP: Click the "Forgot password?" button
 TCtrl --> IHMFP: Enter your username
 V -> IHMFP: Provide username
-IHMFP -> TCtrl ++: Search for the user in the DB
+IHMFP -> TCtrl ++: Search for the user in the database
 TCtrl --> IHMFP --: If the username exists, you will have received a token in your mail which you can use to reset your password.
 deactivate IHMFP
 
@@ -96,7 +96,7 @@ activate V
 V -> V: Search through emails for security token
 V -> IHMFP: Input security token
 activate TCtrl
-IHMFP -> TCtrl++: Search for the token in the DB
+IHMFP -> TCtrl++: Search for the token in the database
 TCtrl -> TCtrl--: searchToken(Token)
 deactivate IHMFP
 deactivate V
@@ -131,3 +131,6 @@ else #DDF2EB
 
 end
 #+end_src
+
+#+RESULTS:
+[[file:export/seq/token-gen.svg]]
